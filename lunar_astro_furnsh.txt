@@ -1,0 +1,18 @@
+
+\begindata
+
+KERNELS_TO_LOAD = ('data/moon_pa_de421_1900-2050.bpc'
+                   'data/moon_080317.tf'
+                   'data/moon_assoc_me.tf'
+                   'data/pck00010.tpc'
+                   'data/naif0008.tls'
+                   'data/de430.bsp' )
+
+\begintext
+
+Here are the SPICE kernels required for my application
+program.
+
+Note that kernels are loaded in the order listed. Thus we
+need to list the highest priority kernel last.
+End of example furnsh kernel.
