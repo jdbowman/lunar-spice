@@ -141,7 +141,7 @@ int main (int argc, char** argv) {
 	// Open output file
   FILE *file;
   file = fopen(output_filepath, "w");
-	fprintf(file, "UTC, Distance DSG-Earth, Distance DSG-RefSite, Az (deg), El (deg), RA (deg), Dec (deg)\n");
+	fprintf(file, "# UTC, Distance DSG-Earth, Distance DSG-RefSite, Az (deg), El (deg), RA (deg), Dec (deg)\n");
 
 	// Convert the starting date to seconds past J2000 epoch
 	str2et_c(startUTC, &et);
